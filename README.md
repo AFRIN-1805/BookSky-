@@ -43,12 +43,13 @@ booksky/
 ---
 
 ## 💻 Live Demo
-*(Optional – add link if hosted on GitHub Pages, Netlify, or Vercel)*
+*(https://lustrous-parfait-c0697b.netlify.app/)*
 
 ---
 
 ## 📸 Screenshots
-*(Optional – include screenshots of main UI and popup)*
+*<img width="1914" height="944" alt="image" src="https://github.com/user-attachments/assets/73bf5607-2afc-4b08-a79a-cf3d65e3d0c1" />
+*
 
 ---
 
