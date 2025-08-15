@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BOOKSKY</title>
+    <link rel="stylesheet" href="style1.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playwrite+NG+Modern:wght@100..400&display=swap" rel="stylesheet">
+</head>
+<body>
+<div class="navbar">
+    <h1>Booksky</h1>
+</div>
+
+<div class="container">
+    <div class="book-container">
+        <h1>THE PEARL</h1>
+        <h5>John Steinbeck</h5>
+        <p>"The Pearl" by John Steinbeck is a haunting tale of greed, sacrifice, and wealth's corrupting influence. Kino, a poor pearl diver, finds a valuable pearl, leading to fame and fortune but also to devastating consequences, exploring class struggle, the American Dream, and materialism's destructive power.  </p>
+        <button onclick="deletebook(event)">Delete</button>
+    </div>
+</div>
+
+<div class="popup-overlay">
+
+<div class="popup-box">
+    <h2>Add Book</h2>
+    <Form>
+        <input type="text" placeholder="Book Title" id="book-title-input">
+        <input type="text" placeholder="Book Author" id="book-author-input">
+        <textarea placeholder="Short Description" id="book-description-input"></textarea>
+        <button id="add-book">Add</button>
+        <button id="cancel-popup">Cancel</button>
+    </Form>
+</div>
+</div>
+<button class="add-button" id="add-popup-button">+</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
